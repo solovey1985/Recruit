@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  recruit:
+    image: recruit
+    build:
+      context: .
+      dockerfile: Recruit\Dockerfile
