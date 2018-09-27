@@ -5,4 +5,4 @@ services:
     image: recruit
     build:
       context: .
-      dockerfile: Recruit\Dockerfile
+      dockerfile: .\Recruit\Dockerfile
